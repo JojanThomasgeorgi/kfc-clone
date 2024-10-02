@@ -1,0 +1,565 @@
+/* div1 */
+.header{
+    top: 0;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    background-color: white;
+    scrollbar-base-color: #202124;
+    
+}
+.left{
+    display: flex;
+    align-items: center;
+   
+    width: 200px;
+ 
+}
+.header-list{
+    font-family: myfontregular;
+
+}
+.kfc-logo{
+    margin-left: 123px;
+}
+.middle{
+    font-size: 14px;
+    font-weight:600;
+    
+    flex: 1;
+    
+}
+.menu,.deals{
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+.sign-in,.rate{
+    font-family: myfontregular;
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    
+    font-size: 14px;
+    font-weight: bold;
+    width: 324px;
+}
+.bucket_cart_icon{
+    height: 51.2px;
+}
+.rate{
+    margin-left: 30px;
+    font-weight: lighter;
+}
+.sign-in{
+    margin-left: 14px;
+}
+.header-list{
+    list-style: none;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.deals{
+    margin-left: 50px;
+}
+/* div2 */
+.location-adress{
+    height: 68px;
+    background-color: #202124;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.location-icon{
+    margin-right: 5px;
+}
+.clock-icon{
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.location,.asap,.change{
+    font-family: myfontregular;
+}
+.asap{
+    margin-right: 15px;
+}
+button{
+    border: 1px solid black;
+  
+  padding: 7px 15px;
+  font-size: 13px;
+  cursor: pointer;
+}
+button.change{
+    border-radius: 20px;
+    border-color: white;
+    background-color: black;
+    color: white;
+}
+
+/* div3 */
+
+.order-type{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 200px;
+    background-color: white;
+    
+    justify-content: center;
+}
+
+.select-order{
+    height: 30px;
+    width: 100%;
+   text-align: center;
+    font-size: 24PX;
+    font-family: myfont;
+}
+.line-div{
+    height: 20px;
+}
+.box{
+    display: flex;
+    margin-left: 0px;
+    margin-top: 2px;
+    margin-bottom: 7px;
+    height: 48px;
+    width: 445px;
+    background-color: #e3e3e3;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+/* ------------------------------------------------------------------------------ */
+
+/* buttons */
+
+.inner-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 44px;
+    width: 369px;
+    font-family: myfont;
+    
+    
+}
+.but1{
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: myfont;
+}   
+.but2{
+  background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: myfont;
+
+} 
+.but3{
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    background-color: #E4002B;
+    border-radius: 50px;
+    height: 44px;
+    width: 145px;
+    font-family: myfont;
+    
+
+} 
+/* ----------------------------------------------------------------------- */
+
+/* div4 */
+
+.banner{
+    display: flex;
+    
+    height: 416px
+}
+
+/* ----------------------------------------------------------------------- */
+
+/* div5 */
+
+.browse-categories{
+    height:885px ;
+    display: flex;
+    justify-content: center;
+
+}
+@font-face{
+    font-family: myfont;
+    src: url(fonts/TestNational2Condensed-Bold.otf);
+    
+}
+.browse{
+    font-family: myfont;
+    font-size: 34px;
+    color: black;
+    font-weight: bold;
+    width: 28%;
+    margin-top: 100px;
+    margin-bottom: 55px;
+    margin-right: 31px;
+}
+.line{
+    margin-top: 5%;
+    
+}
+.cat-container{
+    display: flex;
+    height: 198px;
+    width: 1160px;
+    background-color: transparent;
+    margin-top: 10px;
+    align-items: center;
+   
+    
+}
+
+/* browse content */
+
+.grid-content{
+    display: flex;
+    
+    height: 795px;
+    width: 1175px;
+    margin-left: 270px;
+    margin-right: 80px;
+    flex-wrap: wrap;
+    
+}
+
+/* boxes */
+
+.content-box{
+    display: flex;
+    flex-wrap: wrap;
+    height: 267px;
+    width: 267px;
+    background-color: #f8f7f5;
+    margin: 11px;
+}
+.img-box{
+    display: flex;
+    height: 203px;
+    width: 268px;
+    background-color: #f8f7f5;
+}
+.pic1{
+    display: flex;
+    width: 100%;
+}
+.piclast{
+    display: flex;
+    width: 80%;
+    margin-left: 29px;
+    
+}
+.textbox{
+    font-family: myfont;
+    font-size: 18px;
+    display: flex;
+    height: 45px;
+    width: 267px;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+@font-face{
+    font-family: myfontlight;
+    src: url(fonts/TestNational2Narrow-Light.otf);
+}
+.textbox-all-menu{
+    font-family: myfontlight;
+    font-size: 14px;
+    display: flex;
+    height: 45px;
+    width: 267px;
+    justify-content: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.arrow{
+    height: 11px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+
+/* div6 */
+
+.exclusive{
+    height: 715px;
+    background-color: #202124;
+}
+.offers-container{
+    display: flex;
+    height: 715px;
+    width: 1330px;
+    background-color: #202124;
+    margin-left: 183px;
+    flex-wrap: wrap;
+}
+.three-strips{
+    width: 1301px;
+    height: 42px;
+    margin-left: 28px;
+}
+.strips-three{
+    height: 43px;
+}
+.offer-text{
+    display: flex;
+    height: 45px;
+    width: 1301px;
+    justify-content: space-between;
+    margin-left: 28px;
+}
+.EXCLUSIVE-OFFER{
+    margin: 0px;
+    margin-bottom: 8px;
+    align-items: center;
+    font-size: 34px;
+    font-family: myfont;
+    color: white;
+}
+.veiw-deals{
+    font-family: myfontlight;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    width: 310px;
+    color: white;
+    font-size: 14px;
+}
+.arrow2{
+    filter: brightness(0) invert(1);
+    margin-left: 10px;
+}
+
+.three-boxes{
+    display: flex;
+    height: 500px;
+    width: 1330px;
+    
+    /* overflow-x: auto;
+    overflow-x: hidden; */
+    
+}
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 394px;
+    width: 310px;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 20px;
+    
+}
+.img-box2{
+    display: flex;
+    height: 203px;
+    width: 311px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+}
+.pic2{
+display: flex;
+width: 100%;
+border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.title-text{
+    display: flex;
+    height: 43px;
+    width: 310px;
+    font-family: myfont;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 43px;
+    color: #e4002b;
+    justify-content: center;
+    
+}
+.pc-free{
+    font-family: myfontregular;
+    display: flex;
+    
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+   line-height: 20px;
+   
+    height: 30px;
+    width: 100%;
+    
+}
+@font-face{
+    font-family: myfontregular;
+    src: url(fonts/TestNational2-Regular.otf);
+}
+.value-apply{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.view-details{
+    margin-left: 25px;
+    display: flex;
+    text-decoration: underline; 
+    text-decoration-thickness: 4%;
+    font-family: myfontregular;
+    font-weight: bold;
+    font-size: 14px;
+    color: #494949;
+    
+}
+.apply-offer{
+    margin-right: 25px;
+    height: 54px;
+    width: 165px;
+    border-radius: 43px;
+    font-family: myfontregular;
+    font-weight: bold;
+    font-size: 14px;
+    color: #494949;
+    background-color: white;
+}
+
+/* div7 */
+
+.footer-page{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 350px;
+    width: 100%;
+    background-color: #202124;
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 325px;
+    width: 1370px;
+    /* background-color: #E4002B; */
+    align-items: center;
+    align-items: start;
+}
+.footer-text-box{
+    display: flex;
+    height: 185px;
+    width: 100%;
+    /* background-color: white; */
+    /* gap: 70px; */
+    justify-content: space-evenly;
+    margin-top: 10px;
+   margin-bottom: 4%;
+}
+.catagory-item{
+    display: flex;
+    gap: 20px;
+    color: #e3e3e3;
+    font-size: 14px;
+    font-family: myfontregular;
+    width: 600px;
+    justify-content: center;
+    /* font-weight: bold; */
+
+}
+.heading{
+    font-weight: bold;
+    
+}
+.footer-links li{
+    margin-top: 5px;
+    font-family: myfontregular;
+}
+.ul-title{
+    line-height: 23px;
+}
+
+.footer-links{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    width: 100%;
+    text-align: left;
+}
+.find-store{
+    display: flex;
+    color: #e3e3e3;
+    font-size: 13px;
+    font-family: myfontregular;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-top: 3px;
+
+    
+}
+.loc{
+    height: 17px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+.findkfc{
+    margin-top: 1px;
+    
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 1px;
+}
+.appstorelogo{
+    display: flex;
+    height: 39px;
+    width: 260px;
+    justify-content: space-between;
+}
+
+/* copyright */
+
+.copyright{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    justify-content: space-between;
+    align-items: center;
+margin-top: 10px;
+}
+
+.copy-text{
+    width: 21%;
+    color: #e3e3e3;
+    font-size: 12px;
+}
+.null{
+    width: 50px;
+}
+.insta,.fb,.twitter{
+    margin-left: 10px;
+}
